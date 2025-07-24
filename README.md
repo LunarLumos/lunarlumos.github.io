@@ -7,7 +7,7 @@
 
 ---
 
-### 🌐✨ [**⟶ Click here to visit my magical portfolio ✦**](https://lunarlumos.github.io) ✨🌙
+### 🌐✨ [**⟶ Click here to visit my portfolio ✦**](https://lunarlumos.github.io) ✨🌙
 
 ---
 
