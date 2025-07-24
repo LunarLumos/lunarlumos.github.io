@@ -557,6 +557,7 @@
             gap: 2rem;
             flex-wrap: wrap;
             margin-top: 2rem;
+            justify-content: center;
         }
 
         .adv {
@@ -567,9 +568,10 @@
             display: flex;
             align-items: center;
             gap: 1rem;
-            transition: transform .3s, box-shadow .3s;
+            transition: transform 0.3s, box-shadow 0.3s;
             width: 100%;
             max-width: 48%;
+            box-sizing: border-box;
         }
 
         .adv:hover {
@@ -587,12 +589,36 @@
         .adv .info h3 {
             font-size: 1.1rem;
             color: var(--neon);
-            margin-bottom: .3rem;
+            margin-bottom: 0.3rem;
         }
 
         .adv .info p {
-            font-size: .9rem;
+            font-size: 0.9rem;
         }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .adv {
+                max-width: 100%;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .adv img {
+                width: 70px;
+                height: 70px;
+            }
+
+            .adv .info h3 {
+                font-size: 1rem;
+            }
+
+            .adv .info p {
+                font-size: 0.85rem;
+            }
+        }
+
 
         /* Photo Gallery */
         .gallery-grid {
